@@ -1,0 +1,35 @@
+.plant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.plant-group-title {
+  font-size: 1.5rem;
+  color: #388e3c;
+  margin: 32px 0 16px 0;
+  text-align: left;
+  letter-spacing: 1px;
+  animation: fadeIn 1s;
+}
+
+@media (max-width: 900px) {
+  .plant-list {
+    gap: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .plant-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: none; }
+}
