@@ -1,2 +1,2 @@
-Project Name:e-plantShopping
+Project Name: e-plantShopping
 Paradise Nursery website
